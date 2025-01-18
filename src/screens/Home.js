@@ -32,7 +32,7 @@ export default function Home() {
 
   // Load data from the API
   const load = async () => {
-    let response = await fetch("http://192.168.243.72:4000/api/foodData", {
+    let response = await fetch("http://localhost:4000/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
