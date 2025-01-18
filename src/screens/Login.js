@@ -113,7 +113,7 @@ export default function Login() {
     e.preventDefault(); 
     console.log(credentials); 
 
-    const response = await fetch("http://192.168.243.72:4000/api/loginuser", {
+    const response = await fetch("http://localhost:4000/api/loginuser", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
