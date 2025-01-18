@@ -49,8 +49,8 @@ app.use(express.json());
 // Middleware for CORS
 const allowedOrigins = [
   "https://orderfood-sigma.vercel.app",  // Production URL
-  "http://localhost:3000" ,
-  "http://192.168.243.72:3000"// Localhost for development
+  "http://localhost:3000" 
+  // Localhost for development
 ];
 
 app.use(cors({
