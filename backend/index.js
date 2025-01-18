@@ -11,7 +11,7 @@ const cors = require("cors");
 
 // Middleware for CORS
 app.use(cors({
-  origin: "http://localhost:3000", // Allow requests from your React frontend
+  origin: "https://orderfood-sigma.vercel.app", // Allow requests from your React frontend
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed HTTP methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true // Allow cookies if needed
