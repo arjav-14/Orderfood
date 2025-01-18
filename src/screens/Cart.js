@@ -30,7 +30,7 @@ export default function Cart() {
         }));
     
         try {
-            const response = await fetch("http://localhost:4000/api/orderData", {
+            const response = await fetch("http://192.168.243.72:4000/api/orderData", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
